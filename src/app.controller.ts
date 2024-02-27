@@ -31,7 +31,7 @@ export class AppController {
     // const url = 'https://t.me/MatthewTestWalletBot/wallet?startapp=' + params;
     // // const url = 'https://t.me/MatthewTestWalletBot/wallet';
     // res.redirect(url)
-    const url = 'https://t.me/mpc_wallet_connect_bot/tobi_wallet?startapp=' + `${params !== "undefined" ? params : 'wc'}`;
+    const url = 'https://t.me/telifidev_bot/wallet?startapp=' + `${params !== "undefined" ? params : 'wc'}`;
     // const url = 'https://t.me/MatthewTestWalletBot/wallet';
     res.redirect(url)
   }
